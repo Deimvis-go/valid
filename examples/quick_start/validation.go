@@ -3,7 +3,7 @@ package hi
 import (
 	"github.com/go-playground/validator/v10"
 
-	"gitlab.corp.mail.ru/ai/godzen/ml_infra/lib/exp/valid"
+	"github.com/Deimvis-go/valid"
 )
 
 var val = validator.New(validator.WithRequiredStructEnabled())

@@ -1,6 +1,6 @@
 package hi
 
 func ExampleMain() {
-	main()
+	Main()
 	// Output: MyStruct: answer is wrong
 }

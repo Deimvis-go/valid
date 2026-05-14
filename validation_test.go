@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"gitlab.corp.mail.ru/ai/godzen/ml_infra/lib/exp/ext/xptr"
+	"github.com/Deimvis/go-ext/go1.25/xptr"
 )
 
 // TODO: add test for nested nil field

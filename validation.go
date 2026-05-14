@@ -7,8 +7,8 @@ import (
 	"reflect"
 
 	"github.com/go-playground/validator/v10"
-	"gitlab.corp.mail.ru/ai/godzen/ml_infra/lib/exp/ext/ext"
-	"gitlab.corp.mail.ru/ai/godzen/ml_infra/lib/exp/ext/xstrings"
+	"github.com/Deimvis/go-ext/go1.25/ext"
+	"github.com/Deimvis/go-ext/go1.25/xstrings"
 )
 
 // TODO: support specifying validate function for types as option to Deep() (want to esaily pass like, valid.Deep(queries, {Query: func(a) error { q.ValidateHasNonEmptyContent()  }}))

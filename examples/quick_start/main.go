@@ -2,7 +2,7 @@ package hi
 
 import "fmt"
 
-func main() {
+func Main() {
 	s := MyStruct{
 		Answer: 99,
 	}
